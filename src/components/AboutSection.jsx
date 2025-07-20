@@ -49,20 +49,6 @@ const AboutSection = () => {
                     </div>
 
                     <div className='grid grid-cols-1 gap-6'>
-                        <div className='gradient-border p-6 card-hover'>
-                            <div className='flex items-start gap-4'>
-                                <div className='p-3 rounded-full bg-primary/10'>
-                                    <Code className='h-6 w-6 text-primary' />
-                                </div>
-                                <div className='text-left'>
-                                    <h4 className='font-semibold text-lg'>Web Development</h4>
-                                    <p className='text-muted-foreground'>
-                                        Creating responsive websites and web applications with
-                                        modern frameworks.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div className='gradient-border p-6 card-hover'>
                             <div className='flex items-start gap-4'>
@@ -70,10 +56,10 @@ const AboutSection = () => {
                                     <User className='h-6 w-6 text-primary' />
                                 </div>
                                 <div className='text-left'>
-                                    <h4 className='font-semibold text-lg'>UI/UX Design</h4>
+                                    <h4 className='font-semibold text-lg'>AI-Powered Features</h4>
                                     <p className='text-muted-foreground'>
-                                        Designing intuitive user interfaces and seamless user
-                                        experiences.
+                                        Integrating intelligent features like OCR, smart categorization, 
+                                        and document parsing using modern AI tools.
                                     </p>
                                 </div>
                             </div>
@@ -85,10 +71,25 @@ const AboutSection = () => {
                                     <Briefcase className='h-6 w-6 text-primary' />
                                 </div>
                                 <div className='text-left'>
-                                    <h4 className='font-semibold text-lg'>Project Management</h4>
+                                    <h4 className='font-semibold text-lg'>Backend & API Development</h4>
                                     <p className='text-muted-foreground'>
-                                        Leading projects from conception to completion with
-                                        agile methodologies.
+                                        Building secure, scalable REST APIs with Express.js, MongoDB, 
+                                        and third-party services integration.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='gradient-border p-6 card-hover'>
+                            <div className='flex items-start gap-4'>
+                                <div className='p-3 rounded-full bg-primary/10'>
+                                    <Code className='h-6 w-6 text-primary' />
+                                </div>
+                                <div className='text-left'>
+                                    <h4 className='font-semibold text-lg'>Full-Stack Engineering</h4>
+                                    <p className='text-muted-foreground'>
+                                        Handling both frontend and backend tasks efficiently — 
+                                        from UI components to database modeling.
                                     </p>
                                 </div>
                             </div>
