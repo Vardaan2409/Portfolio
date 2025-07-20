@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-//import { href } from 'react-router-dom'
 import utils from '../lib/utils'
 import { Menu, X } from 'lucide-react';
 
@@ -28,7 +27,7 @@ const Navbar = () => {
         <nav
             className={utils(
                 "fixed w-full z-40 transition-all duration-300",
-                isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs"
+                isScrolled ? "py-3 bg-background backdrop-blur-md shadow-xs"
                     : "py-5"
             )}>
             <div className='container mx-auto px-4 sm:px-8 lg:px-40 flex items-center justify-between'>
@@ -58,7 +57,7 @@ const Navbar = () => {
                 {/* mobile nav */}
 
                 <button onClick={() => setIsMenuOpen((prev) => !prev)}
-                    className='md:hidden p-2 text-foreground z-50'
+                    className='md:hidden mr-5 p-2 text-foreground z-50'
                     aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
                 > 
                     {isMenuOpen ? <X size={24} /> : <Menu size={24}/>}</button>
