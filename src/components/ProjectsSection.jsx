@@ -17,7 +17,7 @@ const projects = [
         description: "I built a responsive and modern portfolio website using React.js and Tailwind CSS to showcase my skills, projects, and developer journey.",
         image: "/Projects/Project2.png",
         tags: ["React", "TailwindCSS", "PrebuiltUI"],
-        demoUrl: "#",
+        demoUrl: "https://portfolio-nine-omega-80.vercel.app/",
         githubUrl: "https://github.com/Vardaan2409/Portfolio",
     },
     {
