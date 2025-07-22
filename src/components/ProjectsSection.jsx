@@ -27,7 +27,7 @@ const projects = [
         image: "/Projects/Project3.png",
         tags: ["React", "Nodejs", "Express", "PostgreSQL", "TailwindCSS"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Vardaan2409/Saas_Project",
     },
 ]
 
