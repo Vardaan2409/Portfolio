@@ -76,13 +76,13 @@ const ProjectsSection = () => {
 
                                 <div className='flex justify-between items-center'>
                                     <div className='flex space-x-3'>
-                                        <a
+                                        {/*<a
                                             href={project.demoUrl}
                                             target='_blank'
                                             className='text-foreground/80 hover:text-primary transition-colors duartion-300'
                                         >
                                             <ExternalLink />
-                                        </a>
+                                        </a>*/}
                                         <a
                                             href={project.githubUrl}
                                             target='_blank'
