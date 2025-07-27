@@ -4,6 +4,15 @@ import React from 'react'
 const projects = [
     {
         id: 1,
+        title: "QuickAI",
+        description: "An AI-powered SaaS application built with the PERN stack featuring user authentication, subscription billing, and tools like article generation, image editing, and resume analysis.",
+        image: "/Projects/Project3.png",
+        tags: ["React", "Nodejs", "Express", "PostgreSQL", "TailwindCSS"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/Vardaan2409/Saas_Project",
+    },
+    {
+        id: 2,
         title: "Prescripto",
         description: "Prescripto is a full-stack healthcare web application that streamlines doctor appointments, profile management, and admin control with role-based access.",
         image: "/Projects/Project1.png",
@@ -12,22 +21,13 @@ const projects = [
         githubUrl: "https://github.com/Vardaan2409/Prescripto",
     },
     {
-        id: 2,
+        id: 3,
         title: "Portfolio",
         description: "I built a responsive and modern portfolio website using React.js and Tailwind CSS to showcase my skills, projects, and developer journey.",
         image: "/Projects/Project2.png",
         tags: ["React", "TailwindCSS", "PrebuiltUI"],
         demoUrl: "https://portfolio-nine-omega-80.vercel.app/",
         githubUrl: "https://github.com/Vardaan2409/Portfolio",
-    },
-    {
-        id: 3,
-        title: "QuickAI",
-        description: "An AI-powered SaaS application built with the PERN stack featuring user authentication, subscription billing, and tools like article generation, image editing, and resume analysis.",
-        image: "/Projects/Project3.png",
-        tags: ["React", "Nodejs", "Express", "PostgreSQL", "TailwindCSS"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/Vardaan2409/Saas_Project",
     },
     {
         id: 4,
