@@ -1,12 +1,27 @@
-# React + Vite
+<img width="2846" height="1516" alt="Screenshot (143)" src="https://github.com/user-attachments/assets/60cf8172-9471-4dc4-a291-d08412bd5c4b" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://portfolio-nine-omega-80.vercel.app/
 
-Currently, two official plugins are available:
+# Developer Portfolio – React.js, Tailwind CSS, FormSubmit, Vercel
+A modern, responsive developer portfolio website built using React.js and Tailwind CSS. It highlights my skills, featured projects, and contact information in a clean, mobile-friendly layout. A built-in dark/light mode toggle enhances user experience, while a FormSubmit-powered contact form allows users to reach me directly via email. The site is fully deployed and continuously delivered via Vercel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack: React.js, Tailwind CSS, FormSubmit, Vercel
 
-## Expanding the ESLint configuration
+## Key Features:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1) Component-based structure with React.js
+
+2) Tailwind CSS for clean, responsive UI
+
+3) Dark/Light mode toggle for theme switching
+
+4) Contact form integrated with FormSubmit (no backend)
+
+5) Project cards with GitHub and live demo links
+
+6) Hosted and auto-deployed on Vercel
+
+7) Fully responsive for mobile, tablet, and desktop
+
+
+
