@@ -29,6 +29,33 @@ const projects = [
         demoUrl: "#",
         githubUrl: "https://github.com/Vardaan2409/Saas_Project",
     },
+    {
+        id: 4,
+        title: "Code_Reviewer",
+        description: "An AI-powered code reviewer that analyzes and suggests improvements for your code using Gemini language models.",
+        image: "/Projects/Project4.png",
+        tags: ["React", "Nodejs", "Express", "Gemini API", "TailwindCSS", "Axios"],
+        demoUrl: "https://code-reviewer-8de6yi1aq-vardaans-projects-c351962a.vercel.app/",
+        githubUrl: "https://github.com/Vardaan2409/Saas_Project",
+    },
+    {
+        id: 5,
+        title: "Realtime Device Tracker",
+        description: "A real-time device tracking system using WebSockets to monitor connected devices instantly via a live dashboard.",
+        image: "/Projects/Project5.png",
+        tags: ["Nodejs", "Express", "Socket.IO", "EJS", "JavaScript"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/Vardaan2409/Saas_Project",
+    },
+    // {
+    //     id: 3,
+    //     title: "QuickAI",
+    //     description: "An AI-powered SaaS application built with the PERN stack featuring user authentication, subscription billing, and tools like article generation, image editing, and resume analysis.",
+    //     image: "/Projects/Project3.png",
+    //     tags: ["React", "Nodejs", "Express", "PostgreSQL", "TailwindCSS"],
+    //     demoUrl: "https://realtime-device-track-11a0.onrender.com",
+    //     githubUrl: "https://github.com/Vardaan2409/Saas_Project",
+    // },
 ]
 
 const ProjectsSection = () => {
