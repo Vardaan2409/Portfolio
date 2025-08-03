@@ -8,8 +8,8 @@ const projects = [
         description: "An AI-powered SaaS application built with the PERN stack featuring user authentication, subscription billing, and tools like article generation, image editing, and resume analysis.",
         image: "/Projects/Project3.png",
         tags: ["React", "Nodejs", "Express", "PostgreSQL", "TailwindCSS"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/Vardaan2409/Saas_Project",
+        demoUrl: "https://quick-ai-sigma-three.vercel.app",
+        githubUrl: "https://github.com/Vardaan2409/QuickAI_SaaS-Project",
     },
     {
         id: 2,
@@ -44,7 +44,7 @@ const projects = [
         description: "A real-time device tracking system using WebSockets to monitor connected devices instantly via a live dashboard.",
         image: "/Projects/Project5.png",
         tags: ["Nodejs", "Express", "Socket.IO", "EJS", "JavaScript"],
-        demoUrl: "#",
+        demoUrl: "https://realtime-device-track-11a0.onrender.com",
         githubUrl: "https://github.com/Vardaan2409/Saas_Project",
     },
     // {
@@ -103,13 +103,13 @@ const ProjectsSection = () => {
 
                                 <div className='flex justify-between items-center'>
                                     <div className='flex space-x-3'>
-                                        {/*<a
+                                        <a
                                             href={project.demoUrl}
                                             target='_blank'
                                             className='text-foreground/80 hover:text-primary transition-colors duartion-300'
                                         >
                                             <ExternalLink />
-                                        </a>*/}
+                                        </a>
                                         <a
                                             href={project.githubUrl}
                                             target='_blank'
