@@ -3,6 +3,24 @@ import React from 'react'
 
 const projects = [
     {
+        id: -1,
+        title: "ThrDream",
+        description: "A premium venture studio website built with Next.js, React, and TypeScript, featuring high-end UI/UX with glassmorphism and interactive design. It showcases products like Mapiin and Assessin, with seamless contact integration and optimized performance.",
+        image: "/Projects/ThrDream.png",
+        tags: ["Next.js", "React", "TypeScript", "TailwindCSS"],
+        demoUrl: "#",
+        githubUrl: "#",
+    },
+    {
+        id: 0,
+        title: "Mapiin",
+        description: "A web-based edtech platform built with React.js, Node.js, Express.js, and Firebase that leverages interactive maps and data-driven learning. It integrates structured content, real-time quizzes, and active recall to enhance user engagement and retention.",
+        image: "/Projects/Mapiin.png",
+        tags: ["React", "Node.js", "Express", "Firebase"],
+        demoUrl: "#",
+        githubUrl: "#",
+    },
+    {
         id: 1,
         title: "QuickAI",
         description: "An AI-powered SaaS application built with the PERN stack featuring user authentication, subscription billing, and tools like article generation, image editing, and resume analysis.",
@@ -19,15 +37,6 @@ const projects = [
         tags: ["React", "Nodejs", "Express", "MongoDB", "TailwindCSS"],
         demoUrl: "#",
         githubUrl: "https://github.com/Vardaan2409/Prescripto",
-    },
-    {
-        id: 3,
-        title: "Portfolio",
-        description: "I built a responsive and modern portfolio website using React.js and Tailwind CSS to showcase my skills, projects, and developer journey.",
-        image: "/Projects/Project2.png",
-        tags: ["React", "TailwindCSS", "PrebuiltUI"],
-        demoUrl: "https://portfolio-nine-omega-80.vercel.app/",
-        githubUrl: "https://github.com/Vardaan2409/Portfolio",
     },
     {
         id: 4,

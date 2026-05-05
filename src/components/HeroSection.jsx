@@ -21,9 +21,7 @@ const HeroSection = () => {
 
                     <p 
                     className='text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3'>
-                        A full-stack web developer passionate about building intelligent, 
-                        scalable, and user-centric web projects using the MERN stack, 
-                        Next.js, and modern AI tools.
+                        I’m a full-stack developer who builds scalable, high-performance web applications using React, Node.js, and modern frameworks. I enjoy turning complex problems into clean, user-friendly products, with a strong focus on performance, design, and real-world impact.
                     </p>
 
                     <div className='pt-4 opacity-0 animate-fade-in-delay-4'>
